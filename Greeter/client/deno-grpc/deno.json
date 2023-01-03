@@ -1,0 +1,11 @@
+{
+  "tasks": {
+    "start": "deno run -A --watch=static/,routes/ dev.ts",
+    "build" : "deno run --allow-read https://deno.land/x/grpc_basic@0.4.6/gen/dts.ts ../../protos/greet.proto > ./core/schema/greet.d.ts"
+  },
+  "importMap": "./import_map.json",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "jsxImportSource": "preact"
+  }
+}
