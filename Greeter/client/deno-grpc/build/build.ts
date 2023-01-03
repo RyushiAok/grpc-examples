@@ -1,0 +1,1 @@
+Deno.remove("./core/schemas/greet.d.ts") // rm -r ./core/schemas/greet.d.ts 
